@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "148599096925",
+    "firebase_url": "https://bit-sge.firebaseio.com",
+    "project_id": "bit-sge",
+    "storage_bucket": "bit-sge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148599096925:android:feec67a0a347a40b436fb4",
+        "android_client_info": {
+          "package_name": "android.example.sge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148599096925-6b43me0j83ni3nplecpimll60lefqd5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.sge",
+            "certificate_hash": "25cb685ce17f7fac60e2c7f6eb444bee7cd9e91c"
+          }
+        },
+        {
+          "client_id": "148599096925-e48d2tl8eh43rjd8ihq13hggbmb9qck0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQK-mqoVfLrh-LyCIhl04HiQwAnPp1j1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148599096925-e48d2tl8eh43rjd8ihq13hggbmb9qck0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

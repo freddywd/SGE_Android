@@ -1,0 +1,2 @@
+rootProject.name='SGE'
+include ':app'

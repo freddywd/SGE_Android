@@ -59,9 +59,9 @@
         tools:layout_editor_absoluteY="75dp" />
 
     <TableLayout
-        android:layout_height="578dp"
+        android:layout_height="250dp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="150dp">
+        tools:layout_editor_absoluteY="200dp">
 
         <TableRow android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
             <TextView
@@ -189,5 +189,23 @@
         </TableRow>
 
     </TableLayout>
+
+    <EditText
+        android:id="@+id/txtFecha"
+        android:layout_width="109dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="150dp"
+        tools:text="@tools:sample/date/ddmmyy" />
+
+    <Button
+        android:id="@+id/btnDocumentacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar cambios"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="450dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

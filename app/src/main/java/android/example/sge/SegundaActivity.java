@@ -1,7 +1,5 @@
 package android.example.sge;
 
-
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -19,8 +17,9 @@ public class SegundaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_segunda);
-        mLogoutBtn = (Button) findViewById(R.id.logout);
 
+        mLogoutBtn = (Button) findViewById(R.id.logout);
+        
         mLogoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -30,6 +29,17 @@ public class SegundaActivity extends AppCompatActivity {
 
             }
         });
+
+        Button mAsistenciaBtn = (Button) findViewById(R.id.btnAsistencia);
+        
+        mAsistenciaBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SegundaActivity.this, activity_asistencias.class));
+            }
+        });
+
+
     }
 }
 

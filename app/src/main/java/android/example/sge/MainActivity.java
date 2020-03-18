@@ -40,28 +40,17 @@ public class MainActivity extends AppCompatActivity {
 
         mLoginBtn = (Button) findViewById(R.id.login);
 
-
         //Se fija si el usuario está registrado
         mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-
                 if (firebaseAuth.getCurrentUser() != null) {
-
                     startActivity(new Intent(MainActivity.this, SegundaActivity.class));
-
                 } else {
-
                     Toast.makeText(MainActivity.this, "Datos Incorrectos", Toast.LENGTH_SHORT).show();
                 }
-
             }
         };
-
-
-
-
-
 
         // Listener se fija si estan correctos los campos y nos lleva a otra activity
         mLoginBtn.setOnClickListener(new View.OnClickListener() {
@@ -96,17 +85,18 @@ public class MainActivity extends AppCompatActivity {
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "createUserWithEmail:failure", task.getException());
-                            Toast.makeText(MainActivity.this, "Authentication failed.",
+                            Toast.makeText(MainActivity.this, "Los datos ingresados no son correctos.",
                                     Toast.LENGTH_SHORT).show();
                             updateUI(null);
                         }
 
-                        // ...
+
                     }
                 });
     }
 
     private void updateUI(FirebaseUser user) {
+        //
     }
 
 

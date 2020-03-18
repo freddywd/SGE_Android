@@ -7,26 +7,56 @@
     tools:context=".SegundaActivity">
 
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Bienvenido al sistema"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="664dp"
         android:text="Salir"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/nombreUsuarioView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <Button
+        android:id="@+id/btnAsistencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asistencias"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <Button
+        android:id="@+id/btnAdmins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admins"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <Button
+        android:id="@+id/btnCalificaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calific."
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <Button
+        android:id="@+id/btnDocumentacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Docs"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="75dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/enter_email"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:text="gabriel@feippe.com" />
 
     <EditText
         android:id="@+id/password"
@@ -22,7 +23,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/enter_password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:text="qwerty" />
 
     <Button
         android:id="@+id/login"

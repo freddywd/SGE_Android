@@ -6,18 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".SegundaActivity">
 
-
-    <Button
-        android:id="@+id/logout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="664dp"
-        android:text="Salir"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <TextView
         android:id="@+id/nombreUsuarioView"
         android:layout_width="wrap_content"
@@ -25,6 +13,15 @@
         android:text="Bienvenido"
         tools:layout_editor_absoluteX="17dp"
         tools:layout_editor_absoluteY="21dp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="664dp"
+        android:text="Salir"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="10dp" />
 
     <Button
         android:id="@+id/btnAsistencia"
